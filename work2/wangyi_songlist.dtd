@@ -1,0 +1,25 @@
+<!ELEMENT songList (listName,creator,createDate,tags,introduction,playTimes,songs,collectors)>
+<!ELEMENT listName (#PCDATA)>
+<!ELEMENT creator (user+)>
+<!ELEMENT user (name)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT createDate (#PCDATA)>
+<!ELEMENT tags (tag+)>
+<!ELEMENT tag (#PCDATA)>
+<!ELEMENT introduction (#PCDATA)>
+<!ELEMENT playTimes (#PCDATA)>
+<!ELEMENT songs (song+)>
+<!ELEMENT song (songName,artist+,time,album)>
+<!ELEMENT songName (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT collectors (user+)>
+
+
+<!ATTLIST songList songNum CDATA "0">
+<!ATTLIST songList playlist_id CDATA #REQUIRED>
+<!ATTLIST user user_id CDATA #REQUIRED>
+<!ATTLIST song song_id CDATA #REQUIRED>
+<!ATTLIST artist artist_id CDATA #REQUIRED>
+<!ATTLIST album album_id CDATA #REQUIRED>

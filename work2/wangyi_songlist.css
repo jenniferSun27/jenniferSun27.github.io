@@ -1,0 +1,206 @@
+songList{
+background-image: url(back.jpg);
+width: 100%;
+height: auto;
+}
+
+listName{
+
+font-size:60pt;
+color:#b4bcf0;
+font-family: 微软雅黑;
+position:relative;
+left:20px
+}
+
+creator{
+font-size:30pt;
+color:#6b6b5e;
+font-family: 微软雅黑;
+font-style:oblique;
+position:fixed;
+top:100px;
+left:20px;
+}
+
+createDate{
+font-size:15pt;
+color:#b9b9b0;
+font-family: 微软雅黑;
+font-style:italic;
+position:fixed;
+top:120px;
+left:170px;
+}
+
+playTimes{
+font-size:12pt;
+color:#edece9;
+font-family: 微软雅黑;
+font-style:italic;
+position:fixed;
+top:125px;
+left:310px;
+}
+
+tags{
+height: 30px;
+width: 180px;
+background-color: #f0eeb4;
+padding-top: 5px;
+padding-left: 5px;
+padding-bottom: 5px;
+position:fixed;
+top:175px;
+left:20px;
+
+}
+
+tag{
+font-size:18pt;
+color:#6b6b5e;
+font-family: 微软雅黑;
+height: 20px;
+width: 50px;
+background-color: #b6b252;
+position:relative;
+
+}
+
+introduction{
+width: 700px;
+background-color: #f3e1b7;
+font-size:12pt;
+color:#6b6b5e;
+font-family: 微软雅黑;
+
+padding-top: 5px;
+padding-left: 5px;
+padding-bottom: 5px;
+
+position:fixed;
+top:240px;
+left:20px;
+
+}
+
+songs{
+width: 760px;
+background-color: #e1f0d8;
+
+padding-top: 5px;
+padding-left: 5px;
+padding-bottom: 5px;
+
+position:fixed;
+top:320px;
+left:20px;
+
+}
+
+song {
+display: block;
+width: 690px;
+background-color: #caebb8;
+position: relative;
+
+margin: 5px 5px 5px 5px;
+
+
+font-size:12pt;
+color:#6b6b5e;
+font-family: 微软雅黑;
+}
+
+
+songName {
+font-size:12pt;
+color:#6b6b5e;
+font-family: 微软雅黑;
+height: 20px;
+width: 170px;
+background-color: #e1f0d8;
+position:relative;
+margin-right: 5px;
+display: inline-block;
+
+}
+
+artist {
+font-size:12pt;
+color:#6b6b5e;
+font-family: 微软雅黑;
+height: 20px;
+width: 170px;
+background-color: #cdebbc;
+margin-right: 5px;
+
+position:fixed;
+left:200px;
+
+padding-left: 4px;
+
+display: inline-block;
+
+}
+
+time {
+font-size:12pt;
+color:#6b6b5e;
+font-family: 微软雅黑;
+height: 20px;
+width: 170px;
+background-color: #bce0a8;
+margin-right: 5px;
+
+position:fixed;
+left:400px;
+
+padding-left: 4px;
+
+display: inline-block;
+
+}
+
+album {
+font-size:12pt;
+color:#6b6b5e;
+font-family: 微软雅黑;
+height: 20px;
+width: 170px;
+background-color: #b3d99e;
+margin-right: 5px;
+
+position:fixed;
+left:600px;
+
+padding-left: 4px;
+
+display: inline-block;
+}
+
+
+collectors {
+height: 20px;
+width: 710px;
+background-color: #cbf9ea;
+padding-top: 5px;
+padding-left: 5px;
+padding-bottom: 5px;
+position:fixed;
+top:610px;
+left:20px;
+
+}
+
+user {
+font-size:12pt;
+color:#6b6b5e;
+font-family: 微软雅黑;
+height: 15px;
+width: 50px;
+background-color: #afdfd0;
+position:relative;
+margin: 5px 5px 5px 5px;
+
+}
