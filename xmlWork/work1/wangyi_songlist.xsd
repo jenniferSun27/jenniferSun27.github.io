@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.w3school.com.cn"
+          xmlns="http://www.w3school.com.cn"
+          elementFormDefault="qualified">
+<xs:element name="songList">
+ <xs:complexType>
+ <xs:sequence>
+    <xs:element name="listName" type="xs:string"/>
+    <xs:element name="creator">
+     <xs:complexType>
+     <xs:sequence>
+       <xs:element name="user" minOccurs="1" maxOccurs="1" >
+         <xs:complexType>
+         <xs:sequence>
+           <xs:element name="name" type="xs:string"/>
+         </xs:sequence>
+         <xs:attribute name="user_id" type="xs:token" use="required"/>
+         </xs:complexType>
+       </xs:element>
+     </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+
+    <xs:element name="createDate" type="xs:date"/>
+
+    <xs:element name="tags">
+      <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tag" type="xs:string" minOccurs="1" maxOccurs="6"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+
+    <xs:element name="introduction" type="xs:string"/>
+    <xs:element name="playTimes" type="xs:nonNegativeInteger"/>
+
+    <xs:element name="songs">
+      <xs:complexType>
+      <xs:sequence>
+        <xs:element name="song" minOccurs="1" maxOccurs="unbounded">
+         <xs:complexType>
+         <xs:sequence>
+           <xs:element name="songName" type="xs:string"/>
+
+           <xs:element name="artist">
+           <xs:complexType>
+             <xs:simpleContent>
+               <xs:extension base="xs:string">
+               <xs:attribute name="artist_id" type="xs:token" use="required"/>
+               </xs:extension>
+             </xs:simpleContent>
+            </xs:complexType>
+            </xs:element>
+
+           <xs:element name="time" type="xs:duration"/>
+
+           <xs:element name="album">
+           <xs:complexType>
+             <xs:simpleContent>
+               <xs:extension base="xs:string">
+               <xs:attribute name="album_id" type="xs:token" use="required"/>
+               </xs:extension>
+             </xs:simpleContent>
+            </xs:complexType>
+           </xs:element>
+
+        </xs:sequence>
+        <xs:attribute name="song_id" type="xs:token" use="required"/>
+        </xs:complexType>
+       </xs:element>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+
+   <xs:element name="collectors">
+     <xs:complexType>
+     <xs:sequence>
+       <xs:element name="user" minOccurs="1" maxOccurs="unbounded">
+         <xs:complexType>
+         <xs:sequence>
+           <xs:element name="name" type="xs:string"/>
+         </xs:sequence>
+         <xs:attribute name="user_id" type="xs:token" use="required"/>
+         </xs:complexType>
+         </xs:element>
+     </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+
+ </xs:sequence>
+  <xs:attribute name="songNum" type="xs:nonNegativeInteger" default="0"/>
+  <xs:attribute name="playlist_id" type="xs:token" use="required"/>
+ </xs:complexType>
+</xs:element>
+</xs:schema>

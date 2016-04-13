@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--外部引用.dtd文件验证-->
-<!DOCTYPE songList SYSTEM "wangyi_songlist.dtd">
+<!--DOCTYPE songList SYSTEM "wangyi_songlist.dtd"-->
 <!--schema外部引用.xsd文件-->
 <!--songList xmlns="http://www.w3school.com.cn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3school.com.cn wangyi_songlist.xsd" songNum="10" playlist_id="309532321"-->
 <?xml-stylesheet type="text/xsl" href="SongList.xsl"?>

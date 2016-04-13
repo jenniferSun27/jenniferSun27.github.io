@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="teaminfo.xsl"?>
+<teaminfo>
+    <teamname>
+        404 Group Not Found
+    </teamname>
+    <logo>grouplogo.png
+    </logo>
+    <infolist>
+        <personinfo>
+            <groupnum>1</groupnum>
+            <name>Jason Yang</name>
+            <stuid>71113305</stuid>
+            <emailaddr>jasonapeman@outlook.com</emailaddr>
+        </personinfo>
+        <personinfo>
+            <groupnum>2</groupnum>
+            <name>Yue Zou</name>
+            <stuid>71113307</stuid>
+            <emailaddr>zouyue1996@foxmail.com</emailaddr>
+        </personinfo>
+        <personinfo>
+            <groupnum>2</groupnum>
+            <name>Ying Zhao</name>
+            <stuid>71Y13106</stuid>
+        </personinfo>
+        <personinfo>
+            <groupnum>2</groupnum>
+            <name>Zhaoyue Sun</name>
+            <stuid>71113309</stuid>
+        </personinfo>
+        </infolist>
+    <progresses>
+        <progress>
+            <proname>AssignmentOne</proname>
+            <proaddr>http://115.29.40.50:3000/content/AssignmentOne</proaddr>
+        </progress>
+        <progress>
+            <proname>AssignmentTwo</proname>
+            <proaddr>http://115.29.40.50:3000/content/AssignmentTwo</proaddr>
+        </progress>
+        <progress>
+            <proname>AssignmentThree</proname>
+            <proaddr>http://115.29.40.50:3000/content/AssignmentThree</proaddr>
+        </progress>
+    </progresses>
+</teaminfo>
+
+
+

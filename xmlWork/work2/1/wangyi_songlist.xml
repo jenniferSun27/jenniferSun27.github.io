@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="wangyi_songlist.css"?>
+
+<!DOCTYPE songList SYSTEM "wangyi_songlist.dtd">
+<songList songNum="10" playlist_id="309532321">
+	<listName>诗意栖居的影子</listName>
+	<creator user_id="118593922">
+			<name>_微澜_</name>
+	</creator>
+	<createDate>
+      2016-02-29
+   </createDate>
+	<tags>
+		<tag>华语</tag>
+		<tag>民谣</tag>
+		<tag>安静</tag>
+	</tags>
+	<introduction>
+   他说你任何为人称道的美丽
+    不及他第一次遇见你
+    ——马頔《南山南》
+    只愿不忘最初的感动吧。
+    封面摄影：Martin Marcisovsky，来自爱尔兰。
+   </introduction>
+	<playTimes>
+      62431
+   </playTimes>
+	<songs>
+		<song song_id="27646295">
+			<songName>安和桥</songName>
+			<artist artist_id="5073">宋东野</artist>
+			<time>04:11</time>
+			<album album_id="2646285">安和桥北</album>
+		</song>
+		<song song_id="145244">
+			<songName>岁月</songName>
+			<artist artist_id="4937">沈庆</artist>
+			<time>04:53</time>
+			<album album_id="14533">这么多年以来</album>
+		</song>
+		<song song_id="202373">
+			<songName>南方姑娘</songName>
+			<artist artist_id="6731">赵雷</artist>
+			<time>05:32</time>
+			<album album_id="20339">赵小雷</album>
+		</song>
+		<song song_id="28381611">
+			<songName>北方的女王（demo）</songName>
+			<artist artist_id="4903">尧十三</artist>
+			<time>05:57</time>
+			<album album_id="2785070">北方的女王（demo）</album>
+		</song>
+		<song song_id="110236">
+			<songName>异乡人</songName>
+			<artist artist_id="3695">李健</artist>
+			<time>03:47</time>
+			<album album_id="10908">想念你</album>
+		</song>
+		<song song_id="26241457">
+			<songName>流浪者</songName>
+			<artist artist_id="13363">小舟与旅行者</artist>
+			<time>04:59</time>
+			<album album_id="2430939">罗布泊</album>
+		</song>
+		<song song_id="26494698">
+			<songName>米店</songName>
+			<artist artist_id="173002">张伟伟和郭龙</artist>
+			<time>05:36</time>
+			<album album_id="2508224">白银饭店</album>
+		</song>
+		<song song_id="26427662">
+			<songName>一个人的北京</songName>
+			<artist artist_id="711683">好妹妹乐队</artist>
+			<time>05:32</time>
+			<album album_id="2497096">南北</album>
+		</song>
+		<song song_id="191117">
+			<songName>牧歌</songName>
+			<artist artist_id="6474">钟立风</artist>
+			<time>04:09</time>
+			<album album_id="19302">像牧歌一样忧伤</album>
+		</song>
+		<song song_id="26418516">
+			<songName>九月（第三版）</songName>
+			<artist artist_id="6461">周云蓬</artist>
+			<time>06:04</time>
+			<album album_id="2489090">清炒苦瓜</album>
+		</song>
+	</songs>
+	<collectors>
+		<user user_id="129549609">
+			<name>LITTLE96</name>
+		</user>
+		<user user_id="999663300">
+			<name>野百合ya—</name>
+		</user>
+		<user user_id="124155163">
+			<name>冒昧搭讪</name>
+		</user>
+	</collectors>
+</songList>

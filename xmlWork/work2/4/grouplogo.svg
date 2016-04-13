@@ -19,12 +19,12 @@
 
   <ellipse stroke="#000" ry="52.5" rx="62.499999" id="face" cy="84.500018" cx="93.000261" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#9f5000"/>
 
-  <!--黄脸和绿脸-->  
+  
   <path d="M92 45  A 51 40 0 0 1 92 130" stroke="black" fill="green" stroke-width="2" fill-opacity="1"/>
   <path d="M92 130  A 51 40 0 0 1 92 45" stroke="black" fill="yellow" stroke-width="2" fill-opacity="1"/>
   <ellipse stroke="#000" ry="15.81" rx="17.5" id="big_eye1" cy="83.31" cx="74.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#ff0000"/>
   <ellipse stroke="#000" ry="15.81" rx="17" id="big_ete2" cy="82.81" cx="109" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#ff0000"/>
-  <path stroke="#000" id="nose" d="m90.58,91.5-4.58,15.69c0,0 11,1.30 11,1.307709c0,0 -6.416656,-17 -6.416656,-17z" fill-opacity="null" stroke-opacity="null" stroke-width="0.1" fill="#9f5000"/>
+  <path stroke="#000" id="nose" d="m90.583603,91.500015l-4.583344,15.692291c0,0 11,1.307709 11,1.307709c0,0 -6.416656,-17 -6.416656,-17z" fill-opacity="null" stroke-opacity="null" stroke-width="0.1" fill="#9f5000"/>
   <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="mandn" y2="114.5" x2="92" y1="95.5" x1="91" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="9f5000"/>
   <path id="mouth" d="m69.000259,108.500015l10,6l13,2c0,0 16,-2 16,-2c0,0 7,-6 7,-6" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
   <ellipse filter="url(#svg_24_blur)" canvas-opacity="1" stroke="#000" ry="9" rx="10" id="middle_eye1" cy="81.500022" cx="76.500263" fill-opacity="null" stroke-opacity="null" stroke-width="2.5" fill="ff0000"/>
